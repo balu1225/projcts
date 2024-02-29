@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(7, 7, 64);
+    margin: 2vh 20vh ;
+}
+
+.container {
+    background-color: rgb(245, 239, 239);
+    border-radius: 5px;
+
+
+}
+
+h2 {
+     text-align: center;
+     padding-top: 3vh;
+}
+
+.search-box {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    /* border-bottom: 5vh solid rgb(227, 71, 71); */
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+div {
+    justify-content: center;
+}
+.buttons button {
+    margin: 5px;
+}
+.input-group {
+    margin: 5px;
+}
+
+.margin-line {
+    padding: 5px;
+    border-bottom: 2px solid rgb(240, 248, 240);
+}
