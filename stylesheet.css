@@ -40,4 +40,24 @@ div {
 .margin-line {
     padding: 5px;
     border-bottom: 2px solid rgb(240, 248, 240);
+    margin-bottom: 20px;
+}
+.navbar {
+    background-color: #f3efef;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(14, 12, 12);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer; /* Changing cursor to pointer for better UX */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }

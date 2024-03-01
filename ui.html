@@ -12,20 +12,18 @@
 <div class="container">
     <div class="search-box">
         <h2>Stock Search</h2>
-        
-        <div class="input-group">
-            <lable for="stock-name">Enter the stock symbol:</lable>
-            <input id="ticker-input" ticker-input="stock-name" type="text" required >
-        </div>
-        
-    <div class="buttons">
+        <form id="stock-search-form">
+            <div class="input-group">
+                <label for="stock-name">Enter the stock symbol:</label>
+                <input id="ticker-input" name="stock-name" type="text" required>
+                <div id="error-message" style="color: red; display: none;">Please fill out the field</div>
+            </div>
 
-   
-        <button id="search-btn" type="button">Search</button>
-        <button id="clear-btn" type="button">Clear</button>
-
-        </div>
-        
+            <div class="buttons">
+                <button type="submit">Search</button>
+                <button type="button" id="clear-btn">Clear</button>
+            </div>
+        </form>
     </div>
     
 </div>
@@ -33,6 +31,32 @@
 <div class="margin-line">
 
 </div>
+<div class="navbar">
+    <button href="#company-outlook">Company Outlook</button>
+    <button href="#stock-summary">Stock Summary</button>
+    <button href="#charts">Charts</button>
+    <button href="#latest-news">Latest News</button>
+</div>
+
+<!-- Sections representing different parts of the page -->
+<section id="company-outlook">
+    <!-- Content for the Company Outlook section -->
+</section>
+
+<section id="stock-summary">
+    <!-- Content for the Stock Summary section -->
+</section>
+
+<section id="charts">
+    <!-- Content for the Charts section -->
+</section>
+
+<section id="latest-news">
+    <!-- Content for the Latest News section -->
+</section>
+
+
+
 <script src="scripts.js"></script>
 </body>
 </html>
