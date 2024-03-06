@@ -96,3 +96,10 @@ html{
 .weather{
     display: none;
 }
+.error{
+    text-align: left;
+   font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+}
